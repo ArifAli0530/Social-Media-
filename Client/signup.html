@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <h2>Registration</h2>
+    <form>
+      <div class="input-box">
+        <input type="text" placeholder="Enter your name" id="name" name="name" required>
+      </div>
+      <div class="input-box">
+        <input type="email" placeholder="Enter your email" id="email" name="email" required>
+      </div>
+      <div class="input-box">
+        <input type="number" placeholder="Enter your Phone Number" id="phone" name="phone" required>
+      </div>
+
+      <div class="input-box">
+        <input type="number" placeholder="Enter your Age" id="age" name="age" required>
+      </div>
+
+      <div id="gender">
+
+        <input type="radio" name="gender" value="male">
+        <label for="Male">Male</label>
+        <input type="radio" name="gender" value="female">
+        <label for="Female">Female</label>
+      </div>
+
+
+
+      <div class="input-box">
+        <input type="password" placeholder="Create password" id="password" name="password" required>
+      </div>
+      <div class="input-box">
+        <input type="password" placeholder="Confirm password" id="confirmPassword" name="password" required>
+      </div>
+
+
+      <div class="text">
+        <h3>Already have an account? <a href="login.html"><u>Login now</u></a></h3>
+      </div>
+    </form>
+    <div class="input-box button">
+      <input type="button" id="submitButton" value="Register Now">
+    </div>
+  </div>
+
+
+  <script src="./signup.js"></script>
+</body>
+
+</html>
